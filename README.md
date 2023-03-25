@@ -5,7 +5,7 @@
     - A SRGAN model trained by others is used to scale-up the resolution of the generate images.
     
 
-<video src="https://user-images.githubusercontent.com/47986787/227747434-28888607-7f00-4d01-a6fc-cbfd5d9eb4ec.mov" controls="controls" style="max-width: 730px;"> </video>
+<video src="https://github.com/Zhiqing-Xu/Basic_GAN/blob/main/Sample_GAN_Training.mov" controls="controls" style="max-width: 730px;"> </video>
 
 
 

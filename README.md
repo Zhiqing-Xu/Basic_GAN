@@ -34,8 +34,17 @@
 - Sample Output:
 
 <p align="center">
-  <img width="800"  src="https://user-images.githubusercontent.com/47986787/167860254-fa45afa3-a81c-41f5-933d-68e460a70dcf.png">
+  <img width="600"  src="https://user-images.githubusercontent.com/47986787/227747883-5ed12518-e992-4451-965a-3c3d685fa1e2.png">
 </p>
+
+
+
+<p align="center">
+  <img width="600"  src="https://user-images.githubusercontent.com/47986787/227747885-b6ba99ca-cbf6-4a4a-9d3f-281e1ecb70c0.png">
+</p>
+
+
+
 
 
 # <font size="6"> &#10148; </font> DCGAN & SRGAN

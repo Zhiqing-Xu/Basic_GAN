@@ -52,15 +52,13 @@
     - A SRGAN model trained by others is used to scale-up the resolution of the generate images.
     - The figure below shows a comparison between a generated 64 * 64 image (using the model we trained) and the result of upscaling.
     <p align="center">
-        <img width="600"  src="https://user-images.githubusercontent.com/47986787/227747885-b6ba99ca-cbf6-4a4a-9d3f-281e1ecb70c0.png">
+        <img width="600"  src="https://user-images.githubusercontent.com/47986787/227822757-fe4ade81-c1ae-4e67-a43f-c788fc5f12a6.png">
     </p>
 
     - The figure below shows the upscaling result image of the previously showed image.
     <p align="center">
-        <img width="600"  src="https://user-images.githubusercontent.com/47986787/227747885-b6ba99ca-cbf6-4a4a-9d3f-281e1ecb70c0.png">
+        <img width="600"  src="https://user-images.githubusercontent.com/47986787/227822788-79da6718-7246-4ec9-b62a-d169e71b092a.png">
     </p>
-
-
 
 
 

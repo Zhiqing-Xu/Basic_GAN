@@ -199,6 +199,7 @@ class _ContentLoss(nn.Module):
             feature_model_normalize_mean: list,
             feature_model_normalize_std: list
     ) -> None:
+        
         super(_ContentLoss, self).__init__()
         # Get the name of the specified feature extraction node
         self.feature_model_extractor_node = feature_model_extractor_node
@@ -217,6 +218,8 @@ class _ContentLoss(nn.Module):
         for model_parameters in self.feature_extractor.parameters():
             model_parameters.requires_grad = False
 
+
+
     def forward(self, sr_tensor: Tensor, gt_tensor: Tensor) -> Tensor:
         # Standardized operations
         sr_tensor = self.normalize(sr_tensor)
@@ -232,18 +235,15 @@ class _ContentLoss(nn.Module):
 
 
 def srresnet_x4(**kwargs: Any) -> SRResNet:
-    model = SRResNet(upscale_factor=4, **kwargs)
-
+    model = SRResNet(upscale_factor = 4, **kwargs)
     return model
 
 
 def discriminator() -> Discriminator:
     model = Discriminator()
-
     return model
 
 
 def content_loss(**kwargs: Any) -> _ContentLoss:
     content_loss = _ContentLoss(**kwargs)
-
     return content_loss

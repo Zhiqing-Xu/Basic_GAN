@@ -142,6 +142,7 @@ with gr.Blocks() as demo:
         fn=processHighRes
     )
 
+
     high_res_button.click(processHighRes, inputs=[high_res_input], outputs=[low_res_output, srgan_output])
     low_res_button.click(processLowRes, inputs=[low_res_input], outputs=[srgan_upscale])
 

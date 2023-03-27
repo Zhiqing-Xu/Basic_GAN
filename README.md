@@ -33,28 +33,32 @@
 
 - Sample Output:
 
-<p align="center">
-  <img width="600"  src="https://user-images.githubusercontent.com/47986787/227747883-5ed12518-e992-4451-965a-3c3d685fa1e2.png">
-</p>
+    - Output generated from 36 random latent space inputs:
+    <p align="center">
+    <img width="600"  src="https://user-images.githubusercontent.com/47986787/227747883-5ed12518-e992-4451-965a-3c3d685fa1e2.png">
+    </p>
 
 
-
-<p align="center">
-  <img width="600"  src="https://user-images.githubusercontent.com/47986787/227747885-b6ba99ca-cbf6-4a4a-9d3f-281e1ecb70c0.png">
-</p>
-
-
+    - Some good outputs:
+    <p align="center">
+    <img width="600"  src="https://user-images.githubusercontent.com/47986787/227747885-b6ba99ca-cbf6-4a4a-9d3f-281e1ecb70c0.png">
+    </p>
 
 
 
 # <font size="6"> &#10148; </font> DCGAN & SRGAN
 - Run_Image_Generator_Main.ipynb provides a pipeline to generate face images.
-    - A trained DCGAN (that is trained using Train_Enhanced_DCGAN.ipynb) is loaded to generate low-resolution images.
+    - A trained DCGAN (using Train_Enhanced_DCGAN.ipynb) is loaded to generate low-resolution images.
     - A SRGAN model trained by others is used to scale-up the resolution of the generate images.
+    - The figure below shows a comparison between a generated 64 * 64 image (using the model we trained) and the result of upscaling.
+    <p align="center">
+        <img width="600"  src="https://user-images.githubusercontent.com/47986787/227747885-b6ba99ca-cbf6-4a4a-9d3f-281e1ecb70c0.png">
+    </p>
 
-
-
-
+    - The figure below shows the upscaling result image of the previously showed image.
+    <p align="center">
+        <img width="600"  src="https://user-images.githubusercontent.com/47986787/227747885-b6ba99ca-cbf6-4a4a-9d3f-281e1ecb70c0.png">
+    </p>
 
 
 

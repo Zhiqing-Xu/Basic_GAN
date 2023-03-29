@@ -44,6 +44,7 @@ import PIL
 
 from typing import Any
 
+
 #====================================================================================================#
 class ResidualDenseBlock(nn.Module):
     # Residual Dense Block. Used in RRDB block in ESRGAN.
